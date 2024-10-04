@@ -1,0 +1,54 @@
+﻿@model EmprestimoModel
+@{
+    ViewData["title"] = "Editar Empréstimo";
+}
+
+@if (TempData["MensagemSucesso"] != null)
+    {
+        <div class="alert alert-success text-light" role="alert">
+            @TempData["MensagemSucesso"]
+        </div>
+    }
+
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger text-light" role="alert">
+            @TempData["MensagemErro"]
+        </div>
+    }
+
+<div class="container bg-dark p-4 rounded-5" style="max-width: 600px;">
+
+    <div class="mb-4 text-center">
+        <h1 class="text-light">Edição de Empréstimo</h1>
+    </div>
+
+    <form method="post" asp-controller="Emprestimo" asp-action="Editar">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label for="Recebedor" class="form-label text-light">Recebedor:</label>
+            <input type="text" class="form-control text-light" asp-for="Recebedor" id="Recebedor" placeholder="Quem está recebendo o empréstimo?">
+            <span class="text-danger" asp-validation-for="Recebedor"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="BancoFornecedor" class="form-label text-light">Banco Fornecedor:</label>
+            <input type="text" class="form-control text-light" asp-for="BancoFornecedor" id="BancoFornecedor" placeholder="Quem está emprestando o dinheiro?">
+            <span class="text-danger" asp-validation-for="BancoFornecedor"></span>
+        </div>
+
+        <div class="mb-3">
+            <label for="QuantiaEmprestimo" class="form-label text-light">Quantia:</label>
+            <input type="text" class="form-control text-light" asp-for="QuantiaEmprestimo" id="Quantia" placeholder="Qual a quantia emprestada?">
+            <span class="text-danger" asp-validation-for="QuantiaEmprestimo"></span>
+        </div>
+
+        <div class="d-flex gap-3 mt-4">
+            <button type="submit" class="btn btn-success btn-sm w-50">Editar</button>
+            <a class="btn btn-primary btn-sm w-50" asp-controller="Emprestimo" asp-action="Index">Voltar</a>
+        </div>
+
+    </form>
+
+</div>
