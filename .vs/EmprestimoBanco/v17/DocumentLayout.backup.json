@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{52E71CFA-A26B-48D2-B434-633E03FBFE05}|EmprestimoBanco.csproj|c:\\users\\gabri\\source\\repos\\emprestimobanco\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{52E71CFA-A26B-48D2-B434-633E03FBFE05}|EmprestimoBanco.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52E71CFA-A26B-48D2-B434-633E03FBFE05}|EmprestimoBanco.csproj|c:\\users\\gabri\\source\\repos\\emprestimobanco\\wwwroot\\css\\materia.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{52E71CFA-A26B-48D2-B434-633E03FBFE05}|EmprestimoBanco.csproj|solutionrelative:wwwroot\\css\\materia.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52E71CFA-A26B-48D2-B434-633E03FBFE05}|EmprestimoBanco.csproj|c:\\users\\gabri\\source\\repos\\emprestimobanco\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52E71CFA-A26B-48D2-B434-633E03FBFE05}|EmprestimoBanco.csproj|solutionrelative:models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -127,10 +135,6 @@
       "RelativeMoniker": "D:0:0:{52E71CFA-A26B-48D2-B434-633E03FBFE05}|EmprestimoBanco.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52E71CFA-A26B-48D2-B434-633E03FBFE05}|EmprestimoBanco.csproj|c:\\users\\gabri\\source\\repos\\emprestimobanco\\wwwroot\\css\\materia.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{52E71CFA-A26B-48D2-B434-633E03FBFE05}|EmprestimoBanco.csproj|solutionrelative:wwwroot\\css\\materia.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{52E71CFA-A26B-48D2-B434-633E03FBFE05}|EmprestimoBanco.csproj|c:\\users\\gabri\\source\\repos\\emprestimobanco\\migrations\\20240924191526_criacaodobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52E71CFA-A26B-48D2-B434-633E03FBFE05}|EmprestimoBanco.csproj|solutionrelative:migrations\\20240924191526_criacaodobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -142,8 +146,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF8SURBVDhPjVNLTgJBEG1lwpoFB3GNK9fieA48hD8iwT/ihwgSDAIHgAGXXsEV18CNzL/LquqZdsYM6kteXqcy3fWqpmpNRBgOhyABBEgpAFVKPIMUcYzUyOU\u002BXM/b2qtU3vkSfRjjZTCAMAw1A2LwzdFoBPP5HNqdzuL27n4juibWI\u002BUshBA1DIkhEx9iEorFotgslQqGYbxxAGFEqt1MxmPWJLbLZdZ\u002Bv89q5PMFPiTR6z2zdaxR0fXA0XTBcVywkb4fwHXjRteecIDNQ7UmExVYAdPcxYaqclN46na5WenMKjtlVnTYwcXlVYaDqImW9beD5N/TeGy32QHXm6hZ03ZgiSQHp2fnWQ4oBmJqWSqwAqZpZjt4aLXAD4J0VqyZsmoubfB8H2r1eoaD6NXZ9HcHO\u002BSA3f4AjifXl8rItOETM8ckB9WTWpYD9RdeZ1PWVWAHWXPQaDb59f/w8LiqHeh1pvGkCaP6qB8yXusoxmuNZ7XmII4O9vGuEF86osuDYRkpYQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-10-04T19:34:31.059Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -154,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "RedefinirSenhaModel.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Models\\RedefinirSenhaModel.cs",
               "RelativeDocumentMoniker": "Models\\RedefinirSenhaModel.cs",
@@ -162,20 +179,11 @@
               "RelativeToolTip": "Models\\RedefinirSenhaModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T14:45:11.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2024-10-04T14:45:11.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -183,25 +191,23 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-04T13:51:25.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T13:51:25.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EmprestimoBanco",
+              "DocumentIndex": 16,
+              "Title": "EmprestimoBanco.csproj",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\EmprestimoBanco.csproj",
               "RelativeDocumentMoniker": "EmprestimoBanco.csproj",
               "ToolTip": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\EmprestimoBanco.csproj",
               "RelativeToolTip": "EmprestimoBanco.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-04T13:44:58.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T13:44:58.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -209,12 +215,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T15:47:41.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T15:47:41.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "IEmprestimosInterface.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Services\\EmprestimosService\\IEmprestimosInterface.cs",
               "RelativeDocumentMoniker": "Services\\EmprestimosService\\IEmprestimosInterface.cs",
@@ -222,12 +227,11 @@
               "RelativeToolTip": "Services\\EmprestimosService\\IEmprestimosInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:32:15.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T14:32:15.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "EmprestimosService.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Services\\EmprestimosService\\EmprestimosService.cs",
               "RelativeDocumentMoniker": "Services\\EmprestimosService\\EmprestimosService.cs",
@@ -235,12 +239,11 @@
               "RelativeToolTip": "Services\\EmprestimosService\\EmprestimosService.cs",
               "ViewState": "AgIAAHwAAAAAAAAAAAAmwIwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T14:31:27.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T14:31:27.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "_LayoutDeslogada.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Views\\Shared\\_LayoutDeslogada.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutDeslogada.cshtml",
@@ -248,12 +251,11 @@
               "RelativeToolTip": "Views\\Shared\\_LayoutDeslogada.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-01T16:33:02.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T16:33:02.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ISessaoInterface.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Services\\SessaoService\\ISessaoInterface.cs",
               "RelativeDocumentMoniker": "Services\\SessaoService\\ISessaoInterface.cs",
@@ -261,12 +263,11 @@
               "RelativeToolTip": "Services\\SessaoService\\ISessaoInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:31:47.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T15:31:47.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "SessaoService.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Services\\SessaoService\\SessaoService.cs",
               "RelativeDocumentMoniker": "Services\\SessaoService\\SessaoService.cs",
@@ -274,12 +275,11 @@
               "RelativeToolTip": "Services\\SessaoService\\SessaoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T15:31:14.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T15:31:14.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "UsuarioLoginDto.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Dto\\UsuarioLoginDto.cs",
               "RelativeDocumentMoniker": "Dto\\UsuarioLoginDto.cs",
@@ -287,12 +287,11 @@
               "RelativeToolTip": "Dto\\UsuarioLoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:46:35.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T14:46:35.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "SenhaService.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Services\\SenhaService\\SenhaService.cs",
               "RelativeDocumentMoniker": "Services\\SenhaService\\SenhaService.cs",
@@ -300,12 +299,11 @@
               "RelativeToolTip": "Services\\SenhaService\\SenhaService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T23:00:34.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T23:00:34.599Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ISenhaInterface.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Services\\SenhaService\\ISenhaInterface.cs",
               "RelativeDocumentMoniker": "Services\\SenhaService\\ISenhaInterface.cs",
@@ -313,12 +311,11 @@
               "RelativeToolTip": "Services\\SenhaService\\ISenhaInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T23:00:04.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T23:00:04.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Models\\ResponseModel.cs",
               "RelativeDocumentMoniker": "Models\\ResponseModel.cs",
@@ -326,12 +323,11 @@
               "RelativeToolTip": "Models\\ResponseModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:52:59.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T16:52:59.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "ILoginInterface.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Services\\LoginService\\ILoginInterface.cs",
               "RelativeDocumentMoniker": "Services\\LoginService\\ILoginInterface.cs",
@@ -339,12 +335,11 @@
               "RelativeToolTip": "Services\\LoginService\\ILoginInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:42:47.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T16:42:47.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "LoginService.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Services\\LoginService\\LoginService.cs",
               "RelativeDocumentMoniker": "Services\\LoginService\\LoginService.cs",
@@ -352,12 +347,11 @@
               "RelativeToolTip": "Services\\LoginService\\LoginService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:41:56.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T16:41:56.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "UsuarioRegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Dto\\UsuarioRegisterDto.cs",
               "RelativeDocumentMoniker": "Dto\\UsuarioRegisterDto.cs",
@@ -365,12 +359,11 @@
               "RelativeToolTip": "Dto\\UsuarioRegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:22:39.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T16:22:39.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -382,20 +375,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UsuarioModel.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Models\\UsuarioModel.cs",
               "RelativeDocumentMoniker": "Models\\UsuarioModel.cs",
               "ToolTip": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Models\\UsuarioModel.cs",
               "RelativeToolTip": "Models\\UsuarioModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:58:11.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:58:11.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Registrar.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Views\\Login\\Registrar.cshtml",
               "RelativeDocumentMoniker": "Views\\Login\\Registrar.cshtml",
@@ -403,12 +395,11 @@
               "RelativeToolTip": "Views\\Login\\Registrar.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T14:53:10.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:53:10.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Login\\Login.cshtml",
@@ -416,12 +407,11 @@
               "RelativeToolTip": "Views\\Login\\Login.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-30T14:28:24.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:28:24.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
@@ -429,12 +419,11 @@
               "RelativeToolTip": "Controllers\\LoginController.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAcwDYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:27:35.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T14:27:35.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "EmprestimoController.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Controllers\\EmprestimoController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmprestimoController.cs",
@@ -442,12 +431,11 @@
               "RelativeToolTip": "Controllers\\EmprestimoController.cs",
               "ViewState": "AgIAAHQAAAAAAAAAAAAuwJgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T19:09:22.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T19:09:22.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -459,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Views\\Emprestimo\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "Views\\Emprestimo\\Cadastrar.cshtml",
@@ -467,12 +455,11 @@
               "RelativeToolTip": "Views\\Emprestimo\\Cadastrar.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T18:39:12.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T18:39:12.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Views\\Emprestimo\\Editar.cshtml",
               "RelativeDocumentMoniker": "Views\\Emprestimo\\Editar.cshtml",
@@ -484,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -496,19 +483,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 1,
               "Title": "Materia.css",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\wwwroot\\css\\Materia.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\Materia.css",
               "ToolTip": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\wwwroot\\css\\Materia.css",
               "RelativeToolTip": "wwwroot\\css\\Materia.css",
-              "ViewState": "AgIAAPMIAAAAAAAAAAAqwAwJAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKs1AAAAAAAAAAAAALg1AAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-26T15:19:00.889Z"
+              "WhenOpened": "2024-09-26T15:19:00.889Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Excluir.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Views\\Emprestimo\\Excluir.cshtml",
               "RelativeDocumentMoniker": "Views\\Emprestimo\\Excluir.cshtml",
@@ -520,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Views\\Emprestimo\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Emprestimo\\Index.cshtml",
@@ -532,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -540,12 +528,11 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-24T19:26:50.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T19:26:50.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "20240924191526_CriacaoDoBanco.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Migrations\\20240924191526_CriacaoDoBanco.cs",
               "RelativeDocumentMoniker": "Migrations\\20240924191526_CriacaoDoBanco.cs",
@@ -557,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -569,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "EmprestimoModel.cs",
               "DocumentMoniker": "C:\\Users\\gabri\\source\\repos\\EmprestimoBanco\\Models\\EmprestimoModel.cs",
               "RelativeDocumentMoniker": "Models\\EmprestimoModel.cs",
@@ -577,8 +564,19 @@
               "RelativeToolTip": "Models\\EmprestimoModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T18:42:34.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T18:42:34.023Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
