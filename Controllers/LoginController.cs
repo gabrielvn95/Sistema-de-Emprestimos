@@ -60,7 +60,7 @@ namespace EmprestimoBanco.Controllers
                 if (usuario.Status)
                 {
                     TempData["MensagemSucesso"] = usuario.Mensagem;
-                    return RedirectToAction("Index");
+                    return RedirectToAction("Login");
                 }
                 else
                 {

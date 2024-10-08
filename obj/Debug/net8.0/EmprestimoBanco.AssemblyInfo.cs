@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmprestimoBanco")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55f7bb72b5ef0bac77c00720b20030723af8e98d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbe42c5396fa873b2bcf70c8cdef2a74bec3af38")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmprestimoBanco")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmprestimoBanco")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
