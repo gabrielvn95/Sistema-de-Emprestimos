@@ -1,5 +1,8 @@
-﻿using EmprestimoBanco.Dto;
+﻿using System.Security.Cryptography;
+using EmprestimoBanco.Dto;
+using EmprestimoBanco.Models;
 using EmprestimoBanco.Services.LoginService;
+using EmprestimoBanco.Services.Repositorio;
 using EmprestimoBanco.Services.SessaoService;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,12 +12,16 @@ namespace EmprestimoBanco.Controllers
     {
         private readonly ILoginInterface _loginInterface;
         private readonly ISessaoInterface _sessaoInterface;
-        public LoginController(ILoginInterface loginInterface, ISessaoInterface sessaoInterface)
+        private readonly IUsuarioRepositorio _usuarioRepositorio;
+
+        public LoginController(ILoginInterface loginInterface, ISessaoInterface sessaoInterface, IUsuarioRepositorio usuarioRepositorio)
         {
             _loginInterface = loginInterface;
             _sessaoInterface = sessaoInterface;
-
+            _usuarioRepositorio = usuarioRepositorio;
+   
         }
+
         public IActionResult Login()
         {
             var usuario = _sessaoInterface.BuscarSessao();
@@ -27,12 +34,16 @@ namespace EmprestimoBanco.Controllers
             return View();
         }
 
+        public IActionResult RedefinirSenha()
+        {
+            return View();
+        }
+
         public IActionResult Logout()
         {
             _sessaoInterface.RemoveSessao();
             return RedirectToAction("Login");
         }
-
 
         public IActionResult Registrar()
         {
@@ -46,31 +57,24 @@ namespace EmprestimoBanco.Controllers
             {
                 var usuario = await _loginInterface.RegistrarUsuario(usuarioRegisterDto);
 
-                if(usuario.Status)
+                if (usuario.Status)
                 {
                     TempData["MensagemSucesso"] = usuario.Mensagem;
+                    return RedirectToAction("Index");
                 }
                 else
                 {
                     TempData["MensagemErro"] = usuario.Mensagem;
                     return View(usuarioRegisterDto);
                 }
-
-                return RedirectToAction("Index");
             }
-            else
-            {
-                return View(usuarioRegisterDto);
-           
-            }
-
+            return View(usuarioRegisterDto);
         }
 
         [HttpPost]
-
-        public async  Task<IActionResult> Login(UsuarioLoginDto usuarioLoginDto)
+        public async Task<IActionResult> Login(UsuarioLoginDto usuarioLoginDto)
         {
-           if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 var usuario = await _loginInterface.Login(usuarioLoginDto);
 
@@ -84,12 +88,27 @@ namespace EmprestimoBanco.Controllers
                     TempData["MensagemErro"] = usuario.Mensagem;
                     return View(usuarioLoginDto);
                 }
-
-
             }
-            else
+            return View(usuarioLoginDto);
+        }
+
+
+        private string GerarNovaSenha()
+        {
+            const int tamanho = 8;
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
+            Random random = new Random();
+            return new string(Enumerable.Repeat(chars, tamanho)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+
+        private (byte[] Hash, byte[] Salt) GerarSenhaHash(string senha)
+        {
+            using (var hmac = new HMACSHA256())
             {
-                return View(usuarioLoginDto);
+                var salt = hmac.Key;
+                var hash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(senha));
+                return (hash, salt);
             }
         }
     }

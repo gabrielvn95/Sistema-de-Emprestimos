@@ -1,6 +1,7 @@
 using EmprestimoBanco.Data;
 using EmprestimoBanco.Services.EmprestimosService;
 using EmprestimoBanco.Services.LoginService;
+using EmprestimoBanco.Services.Repositorio;
 using EmprestimoBanco.Services.SenhaService;
 using EmprestimoBanco.Services.SessaoService;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +26,7 @@ namespace EmprestimoBanco
             builder.Services.AddScoped<ISenhaInterface, SenhaService>();
             builder.Services.AddScoped<ISessaoInterface, SessaoService>();
             builder.Services.AddScoped<IEmprestimosInterface, EmprestimosService>();
+            builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 
             builder.Services.AddSession(options =>
             {

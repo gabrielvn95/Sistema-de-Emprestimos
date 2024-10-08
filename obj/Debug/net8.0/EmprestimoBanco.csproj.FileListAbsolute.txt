@@ -145,3 +145,4 @@ C:\Users\gabri\source\repos\EmprestimoBanco\bin\Debug\net8.0\System.IO.Packaging
 C:\Users\gabri\source\repos\EmprestimoBanco\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
 C:\Users\gabri\source\repos\EmprestimoBanco\bin\Debug\net8.0\XLParser.dll
 C:\Users\gabri\source\repos\EmprestimoBanco\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\gabri\source\repos\EmprestimoBanco\obj\Debug\net8.0\EmprestimoBanco.sourcelink.json
